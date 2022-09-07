@@ -1,4 +1,4 @@
 # desafios-Rocketseat
 Desafios Rocketseat
 
-Conjuntos de desafios realizado
+Conjunto de desafios porpostos pela Rocketseat
