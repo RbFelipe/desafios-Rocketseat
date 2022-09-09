@@ -229,23 +229,6 @@
     margin-left: 11rem;
   }
 
-
-  .pro2{
-    width: 45%;
-    padding: 25px;
-    background-color: var(--bg-cards);
-    color: var(--text-color);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    gap: 1rem;
-    cursor: pointer;
-    transition: .5s;
-  }
-
-  .pro2:hover{
-    transform: translateY(-10px);
-  }
-
   .recent{
     display: flex;
     align-items: center;
