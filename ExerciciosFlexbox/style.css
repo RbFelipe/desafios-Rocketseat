@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background: lightgray;
+}
+
+header{
+    padding: 2rem;
+    background: black;  
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+nav a:hover{
+    color: red;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+
+nav span{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: .8rem;
+    margin-left: 1rem;
+}
+
+ul li{
+    transition: .5s;
+}
+
+ul li:hover{
+    color: red;
+}
+span:hover{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    gap: 0.5rem;
+    margin: 20px 15px;
+}
+
+.p1, .p2{
+    border: 1px solid black;
+    border-radius: 4px;
+    background: white;
+    height: 40vh;
+    padding: 1rem;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.p1{
+    flex-basis: 25%;
+}
+
+.p2{
+    flex: 1;
+}
+
+.gallery a img{
+    width: 23rem;
+    height: auto;
+    transition: .5s;
+}
+
+.gallery a img:hover{
+    transform: translateY(-15px);
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    margin: 15px;
+}
+
+button {
+    position: absolute;
+    width: 7rem;
+    height: 3rem;
+    right: 100px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;   
+    font-weight: bold; 
+    cursor: pointer;
+}
